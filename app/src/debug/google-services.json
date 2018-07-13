@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1006452997085",
+    "firebase_url": "https://test-fb81d.firebaseio.com",
+    "project_id": "test-fb81d",
+    "storage_bucket": "test-fb81d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006452997085:android:4abe90ed757c60f9",
+        "android_client_info": {
+          "package_name": "com.aptus.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006452997085-ear3ghqpposht4ulgsuln1vrsabvltmo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdLw7cDoR1dROuIx3a1S4gGV3eFL4Y5bg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
