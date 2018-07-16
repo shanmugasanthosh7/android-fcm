@@ -9,7 +9,7 @@ Firebase Cloud Messaging deprecated the **FirebaseInstanceIdService**, So we can
 
 ```kotlin 
 FirebaseInstanceId.getInstance().instanceId.addOnSuccessListener {
-            // FCM token send to to your server
+            // Send token to your server
             it.token
         }
 ```
