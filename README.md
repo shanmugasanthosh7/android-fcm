@@ -1,5 +1,5 @@
 # android-fcm
-Firebase Cloud Messaging 17.1.0 new update
+Firebase Cloud Messaging 20.1.3 new update
 
 Replace **google-services.json** with your own json. 
 
@@ -9,8 +9,12 @@ Firebase Cloud Messaging deprecated the **FirebaseInstanceIdService**, So we can
 
 ```kotlin 
 FirebaseInstanceId.getInstance().instanceId.addOnSuccessListener {
-            // Send token to your server
+            // FCM token send to to your server
             it.token
+        }.addOnCompleteListener {
+            // After success event this event is triggered.
+        }.addOnFailureListener {
+            // In case any exception is occurred handle it here.
         }
 ```
 
