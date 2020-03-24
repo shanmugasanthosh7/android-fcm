@@ -13,6 +13,10 @@ class MainActivity : AppCompatActivity() {
         FirebaseInstanceId.getInstance().instanceId.addOnSuccessListener {
             // FCM token send to to your server
             it.token
+        }.addOnCompleteListener {
+            // After success event this event is triggered.
+        }.addOnFailureListener {
+            // In case any exception is occurred handle it here.
         }
     }
 }
