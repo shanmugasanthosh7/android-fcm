@@ -1,5 +1,5 @@
 # android-fcm
-Firebase Cloud Messaging 20.1.3 new update
+Firebase Cloud Messaging 20.2.1 new update
 
 Replace **google-services.json** with your own json. 
 
@@ -26,6 +26,8 @@ FirebaseInstanceId.getInstance().instanceId.addOnSuccessListener {
 <application>
   <meta-data android:name="firebase_messaging_auto_init_enabled"
              android:value="false" />
+            
+  <!-- Only for if analytics is enabled-->
   <meta-data android:name="firebase_analytics_collection_enabled"
              android:value="false" />
 </application>
